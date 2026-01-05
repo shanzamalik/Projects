@@ -1,6 +1,6 @@
 # Calculator
 ## Calculator2
-### Calculator3
+### Calc3
 - git clone url
 - git add .
 - git commit -m "my message"
