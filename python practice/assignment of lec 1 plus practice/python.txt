@@ -1,0 +1,85 @@
+python:
+
+in python, if want to add space between two parameters in print, than we can add because by default its give other value 
+in next line eg:print("shanza",end="")
+print("malik") (((by default this print function gives end="\n)))
+
+
+slicing concept:(normally, whwn we deal with strings indexes only start
+ with zero and positively progress,negative indexes only exist in slicing concept).
+for list:we also have a slicing concept
+
+Difference in list and string:
+in list :we can access the index and change its value too, eg: str[0]="1"(allow)
+in string: we only access index not change their values.eg:str[0]="1"(no allow)
+in tuples : only round brackets around, eg: tup=(1,2,3).we cant assign values 
+to indexes like string.
+eg:str[0]="1"(no allow)
+ empty tuple: tup=()
+single tuple: tup(1,)
+
+Dictionary in python: (mutable)changeable like list, dont allow duplicate key
+in dictionary, there is a key and value,values can be any list,tuples,string,float or int num.
+in dictionary, we no have indexes concept(combination of things) so we access it with key name.
+we can make empty dictionary.
+
+Set in python:
+we can add or remove elements in a set,but elements in a set are immutable.
+set are mutable(add or remove elements in a set), 
+but elements in a set are immutable(elements of set cant be change) .
+each item in a set must be unique and immutable(not changeable).
+it only stores boolean,int,float,string,tuple,,,but not stores dictionary and list(bcz we can change their values).
+we can make empty Sets. 
+
+hashable:tuples are hashable means there values cant be change.once assign hash value it cant be change,.
+unhashable:list,dictionaries,set are unhashable because there (hash values change)
+
+file handling:
+r+ (read plus overwrite)(pointer position:start) (truncate data)
+w+ (read and overwrite)(no truncate)(in this case once file data delete,no matter pointer is at strt or at the end)
+a+ (read and append)(pointer at the end)(no truncate)
+
+with syntax,delete 
+pip install tensorflow (pakage installer for python)
+
+oop:
+2 pillars of oop
+1)encapsulation 2)abstraction 3)inheritance 4)polymorphism
+1)abstraction: it only shows essentail features/things to the user but hiding implementation details of a class
+2)encapsulation:capsule(object)->data(attributes)+function(methods)..uski object bana k use ker rahay.
+
+Methods in oop:
+There are three methods in oop.
+1)static method:no take any argument.not change and access class attribute and method and 
+no change in its property.
+2)class method:which take (cls) as a implicit argument.(we use class attributes in it).
+3)instance method:which take (self) as a implicit argument.(we use instance property or instance method in it).
+eg: #eg obj(self).__class__.name(attribute)
+   def change_name(self,name):
+       self.__class__.name="aizal"
+@) property decorator(if attribute value depend on function, we make that function our property. 
+@@)getter decorator(get value)
+@@@) setter decorator(set value)
+@@@@) deleter decorator
+4)polymorphism:when same operator is allowed to have different meaning
+according to the context.
+eg:operator overloading
+#in python,there are already class exist,whose all strings 
+are objects ,and in class object its already written + sign in between
+2 string means to concatenate two strings.
+eg: print("apna" +"colg")
+apna 1 obj, colg 2nd obj of string class plus means to add string and 
+gv answer. output: apnacolg 
+eg 2:[1,2]+[3,4] output: [1,2,3,4]
+in eg2:already list class in python, it define in list + operator
+merge whole first list with other.
+eg3:
+print(1+2) output: 3
+these are implicit overloading that are already defined in python
+same thing we can do with classes
+
+complex num:(math topic)
+1i+3j(i :realno,j:imaginery
+wn 2 complex add 2 real add, 2 imajinARY num add
+eg 5i+10j,-1i+8j ans:4i+18j
+#we no have any class for complex num in python.

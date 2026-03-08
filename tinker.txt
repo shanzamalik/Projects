@@ -1,0 +1,15 @@
+#733*434(pycharm screen approx)(for idea)
+
+tk=widget tool kit
+kinter=GUI python interface
+
+methods to pack widgets in GUI Window:(for geometry management)
+pack,grid,place.
+pack:place all widgets(button,checkbox) in blockwise
+using attributes of pack in our GUI window(eg position of checboxes,lists)
+grid:grid layeout (give row and column to place it)
+.place method(dot place method):place widgets in a specific place
+through the help of tkinter we can make cross GUI.
+
+label(widget):user not interact with. 
+
